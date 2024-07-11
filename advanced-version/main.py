@@ -15,7 +15,7 @@ def get_player_name(uuid):
 
 
 def get_data():
-    url = 'https://mc.sjtu.cn/smp2_parkour.php?pass=ynkdress'
+    url = ''
     response = requests.get(url)
     if response.status_code == 200:
         return response.text

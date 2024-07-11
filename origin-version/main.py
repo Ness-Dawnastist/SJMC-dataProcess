@@ -6,7 +6,7 @@ import requests
 import drawRank
 
 # 下载数据到rankData.json
-url = 'Hided'
+url = ''
 getData.get_data(url) 
 
 # 加载数据
